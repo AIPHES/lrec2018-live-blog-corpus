@@ -4,7 +4,7 @@ In this project, we develop a corpus for Live Blog Summarization. This repositor
 The Guardian and BBC live blogs.
 
 For a detailed description of this corpus please read:
-[Live Blog Corpus for Summarization](https://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_AIPHES/publications/2018/2018_LREC_Live_Blog_Summarization_AvP_MaP_ChM-CameraReady.pdf), P.V.S. et al., LREC 2018.
+[Live Blog Corpus for Summarization](https://tinyurl.com/yahqyhpn), P.V.S. et al., LREC 2018.
 
 If you reuse this corpus and software, please use the following citation:
 
@@ -54,7 +54,7 @@ Installation
 pip install -r requirements.txt
 ```
 
-2. In case you don't already have it, download NLTK's tokenization model and stopwords.
+2. Download ROUGE package from the [link](https://www.isi.edu/licensed-sw/see/rouge/) and place it in the rouge directory 
 
 ```
  python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords')"
